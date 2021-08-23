@@ -1,0 +1,83 @@
+.navigation_bar{
+    overflow: hidden;
+    background-color: cyan;
+}
+.navigation_bar a {
+    float: left;
+    display: block;
+    color: blue;
+    padding: 10px;
+    text-decoration: none;
+}
+.navigation_bar a:hover{
+    background-color: chartreuse;
+    color: black;
+}
+.navigation_bar a.right{
+    float: right;
+}
+.welcome{
+    padding: 80px;
+    text-align: center;
+    background:honeydew;
+    font-size: 50px;
+}
+.welcome p{
+    font-size: 30px;
+}
+.projects{
+    padding: 40px;
+    text-align: center;
+    background: indianred;
+    font-size: 40px;
+}
+.project_one img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+    
+}
+.project_one{
+    background:cyan;
+}
+.project_two img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+.project_two{
+    background:mistyrose;
+}
+.project_three img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+.project_three{
+    background: lightpink;
+}
+.project_four img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 250px;
+}
+.project_four{
+    background: lightsalmon;
+}
+.all_projects{
+    padding: 60px;
+    text-align: center;
+    background: indianred;
+    font-size: 40px; 
+}
+.all_projects p{
+    font-size: 40px;
+}
+.about_me img{
+    height: 100%;
+    width: 100%;
+}

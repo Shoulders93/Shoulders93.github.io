@@ -5,28 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Portfolio" content="Kory Attleson Portfolio Page">
-
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Welcome to my Portfolio Page!</title>
 </head>
 <body>
+    <div class="navigation_bar">
+        <a href="#welcome">Welcome!</a>
+        <a href="#projects">My Favorite Projects</a>
+        <a href="all_projects">All Projects</a>
+        <a href="#about_me" class="right">About me</a>
+    </div>
 
-    <div>This is my Portfolio Welcome Page!</div>
+    <div class="welcome">This is my Portfolio Welcome Page!
     <p>Thank you for visiting my personal page.</p>
+    </div>
 
-    <div>Take a look at my favorite Projects so far:</div>
+    <h2 class="projects">Take a look at my Projects so far:</h2>
+    <div class="w3-row-padding w3-center">
+        <div class="project_one">
+            <img src="https://www.manifatturafalomo.com/wpblog/wp-content/uploads/2016/06/how-did-people-wake-up-before-the-invention-of-alarm-clock-the-first-bedside-alarm-clock.jpg" alt="Alarm Clock">
+            <p>This project is relatively straightforward. Using python, in the parameters you set the current time and then the time you want the alarm to go off. Then console will loop itself until time = alarm. Check it out <a href="https://github.com/Shoulders93/alarmclock_proj">here</a></p>
+        </div>
+        <div class="project_two">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.9EKuHKK4Lc-ZEei3aDQNiwHaEo%26pid%3DApi&f=1" alt="Take a Trip">
+            <p>The 'Day Trip Generator' is exactly how it sounds. Using JavaScript, you set what cities, restaurants, mode of transportation, and form of entertainment you want to partake it. Then the generator makes a choice for you! Check it out <a href="https://github.com/Shoulders93/dayTripGenerator_proj">here</a></p>
+        </div>
+        
+        
+        <div class="project_three">
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.CzBnfM5FK2dJhhjmI50E5wHaG6%26pid%3DApi&f=1" alt="RPSLS">
+            <p>Want to take Rock Paper Scissors up a notch? Then here you are! Utilizing Python, Rock-Paper-Scissors-Lizard-Spock lets you choose whether you want to play against the computer or another person. May the odds forever be in your favor, and Live Long and Prosper. Check it out <a href="https://github.com/Char-Alexis/RPSLS_Project">here</a></p>
+        </div>
+        <div class="project_four">
+        <img src="https://img1.etsystatic.com/035/0/5246126/il_570xN.585054461_seni.jpg" alt="robot vs dino">
+        <p>The classic battle between Dinosaurs and Robots can finally be settled in this game. Using Python set your parameters for Robots and Dinosaurs and see who comes out on top! Check it out <a href="https://github.com/Shoulders93/robots_vs_dinos_proj">here!</a></p>
+        </div>
+    
+    </div>
 
-    <a href="https://github.com/Shoulders93/alarmclock_proj">Alarm Clock</a>
-    <a href="https://github.com/Shoulders93/dayTripGenerator_proj">Day Trip Generator</a>
-    <a href="https://github.com/Char-Alexis/RPSLS_Project">Rock-Paper-Scissors-Lizard-Spock!</a>
-    <a href="https://github.com/Shoulders93/robots_vs_dinos_proj">Robots vs. Dinosaurs!</a>
+    <div class="all_projects">Want to see my entire Portfolio?
+        <p><a href="https://github.com/Shoulders93">Check it out here</a></p>
+    </div>
 
-    <div>Want to see my entire Portfolio?</div>
-    <a href="https://github.com/Shoulders93">Check it out here</a>
-
-    <div>About me</div>
+    <div class="about_me">About me
+    <img src="./images/Kory_Headshot.jpg" alt="This is a picture of myself">
     <p>This section will be where I talk about myself</p>
     <p>This section will be where I talk about past work</p>
     <p>This section will talk about what I have learned for programming so far</p>
+    </div>
     
 </body>
 </html>
