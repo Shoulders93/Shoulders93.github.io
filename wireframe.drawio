@@ -1,0 +1,49 @@
+<mxfile host="65bd71144e">
+    <diagram id="OVIbihgzdhj2wW-SPdiK" name="Page-1">
+        <mxGraphModel dx="539" dy="576" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Kory Attleson" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="40" width="120" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Home" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="290" y="40" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Welcome!" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="40" width="90" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Projects" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="40" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="About me!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="40" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="This is my Portfolio Website Page!" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="100" width="390" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Take a look at my favorite Projects I have worked on:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="180" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Project 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="240" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Project 2" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="240" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Project 3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="300" width="200" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Project 4" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="300" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Click here to see my entire portfolio&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="360" width="390" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="About me:" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="420" width="390" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
