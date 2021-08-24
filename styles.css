@@ -1,11 +1,32 @@
 .navigation_bar{
     overflow: hidden;
-    background-color: cyan;
+    background-color: #49494b;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  .fa-instagram {
+    background: #E1306C;
+    color: white;
+  }
 .navigation_bar a {
     float: left;
     display: block;
-    color: blue;
+    color: white;
     padding: 10px;
     text-decoration: none;
 }
@@ -19,7 +40,7 @@
 .welcome{
     padding: 80px;
     text-align: center;
-    background:honeydew;
+    background:#bd8c7d;
     font-size: 50px;
 }
 .welcome p{
@@ -28,27 +49,29 @@
 .projects{
     padding: 40px;
     text-align: center;
-    background: indianred;
+    background: #8e8e90;
     font-size: 40px;
 }
 .project_one img{
     display: block;
-    margin-left: auto;
+    margin-left: 200px;
     margin-right: auto;
     height: 250px;
     
 }
 .project_one{
-    background:cyan;
+    text-align: center;
+    background:#49494b;
 }
 .project_two img{
     display: block;
-    margin-left: auto;
+    margin-left: 500px;
     margin-right: auto;
     height: 250px;
 }
 .project_two{
-    background:mistyrose;
+    text-align: center;
+    background:#bd8c7d;
 }
 .project_three img{
     display: block;
@@ -57,27 +80,86 @@
     height: 250px;
 }
 .project_three{
-    background: lightpink;
+    text-align: center;
+    background: #8e8e90;
 }
 .project_four img{
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: 400px;
     height: 250px;
 }
 .project_four{
-    background: lightsalmon;
+    text-align: center;
+    background: #49494b;
+}
+.future_projects{
+    position: relative;
+    text-align: center;
+    background: #bd8c7d;
+}
+.future_projects:hover .overlay{
+    opacity: 1;
 }
 .all_projects{
-    padding: 60px;
+    padding: 40px;
     text-align: center;
-    background: indianred;
+    background: #8e8e90;
     font-size: 40px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .all_projects p{
     font-size: 40px;
 }
-.about_me img{
+ .about_me{
+    position: relative;
+}
+
+.picture img{
+    display: block;
+    width: 50%;
+    height: 500px;
+    padding: 300px;
+}
+
+.about_me:hover .overlay{
+    opacity: 1;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     height: 100%;
     width: 100%;
+    opacity: 0;
+    transition: 2s ease;
+    background-color: #008CBA;
 }
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+footer{
+    text-align:center;
+    font-size: 25px;
+    padding: 5px;
+    background-color: #49494b;
+    color: whitesmoke;
+}
+/* .picture{
+    background-color: #bd8c7d;
+    background-color: #8e8e90;
+    background-color: #49494b;
+} */
