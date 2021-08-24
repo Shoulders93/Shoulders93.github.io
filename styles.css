@@ -52,9 +52,17 @@
     background: #8e8e90;
     font-size: 40px;
 }
+.w3-row-padding ::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
 .project_one img{
+    float: left;
+    width: 25%;
     display: block;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: auto;
     height: 250px;
     
@@ -62,38 +70,53 @@
 .project_one{
     text-align: center;
     background:#49494b;
+    color:wheat;
+    font-size: 20px;
 }
 .project_two img{
+    float: right;
+    width: 25%;
     display: block;
-    margin-left: 500px;
-    margin-right: auto;
+    margin-left: auto;
+    margin-right: 100px;
     height: 250px;
 }
 .project_two{
     text-align: center;
     background:#bd8c7d;
+    color: wheat;
+    font-size: 20px;
 }
 .project_three img{
+    float: left;
+    width: 25%;
     display: block;
-    margin-left: auto;
+    margin-left: 100px;
     margin-right: auto;
     height: 250px;
 }
 .project_three{
     text-align: center;
     background: #8e8e90;
+    color: wheat;
+    font-size: 20px;
 }
 .project_four img{
+    float: right;
+    width: 25%;
     display: block;
     margin-left: auto;
-    margin-right: 400px;
+    margin-right: 100px;
     height: 250px;
 }
 .project_four{
     text-align: center;
     background: #49494b;
+    color: wheat;
+    font-size: 20px;
 }
 .future_projects{
+    float: none;
     position: relative;
     text-align: center;
     background: #bd8c7d;
